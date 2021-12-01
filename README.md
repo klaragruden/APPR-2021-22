@@ -10,29 +10,28 @@ V prvem delu se bom osredotočila na Slovenijo. Analizirala bom število živoro
 V drugem delu pa bom po svetu opazovala povezavo med robnostjo in številom splavov z BDP-jem države.  
 
 
-1.tabela: število rojenih po dnevih\\
-vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1031S.px/ (CSV)
+1.tabela: število rojenih po dnevih
 
 * Leto (integer)
 * Mesec (integer)
 * Dan (integer)
 * Število rojenih (integer)
+vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1031S.px/ (CSV)
 
 
 
-2.tabela: živorojeni po starosti in izobrazbi matere\\ 
-vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px (CSV)
+2.tabela: živorojeni po starosti in izobrazbi matere
+ 
 
 * Leto (integer)
 * Starost matere (integer)
 * Izobrazba matere (character)
 * Vrstni red rojstva (integer)
 * Število živorojenih (integer)
+vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px (CSV)
 
 
-
-3.tabela: rojsta po spolu in statističnih regijah\\
-vir: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal__1%20Zdravstveno%20stanje%20prebivalstva__03%20Porodi%20in%20rojstva&px_tableid=PIS_TB_6.px&px_language=sl&px_db=NIJZ%20podatkovni%20portal&rxid=e282d9e8-19d0-451f-a4de-e7d2147cc4b1 (HTML)
+3.tabela: rojsta po spolu in statističnih regijah
 
 * Leto (integer)
 * Živorojeni (integer)
@@ -40,6 +39,7 @@ vir: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal__
 * Spol (character)
 * Regija (character)
 
+vir: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal__1%20Zdravstveno%20stanje%20prebivalstva__03%20Porodi%20in%20rojstva&px_tableid=PIS_TB_6.px&px_language=sl&px_db=NIJZ%20podatkovni%20portal&rxid=e282d9e8-19d0-451f-a4de-e7d2147cc4b1 (HTML)
 
 
 4.tabela: rodnost

@@ -1,13 +1,73 @@
 # Analiza podatkov s programom R - 2021/22
 
-Vzorčni repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22. 
+Repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22. 
 
-## Tematika
+## Analiza rodnosti
 
-Analiza rodnosti
+V projektni nalogi bom analizirala podatke za obdobje od leta 2000 do leta 2020.
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V prvem delu se bom osredotočila na Slovenijo. Analizirala bom število živorojenih otrok na starost in izobrazbo matere ter število rojenih po regijah.
+V drugem delu pa bom po svetu opazovala povezavo med robnostjo in številom splavov z BDP-jem države.  
+
+
+1.tabela: število rojenih po dnevih
+viri: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1031S.px/ (CSV)
+
+* Leto (integer)
+* Mesec (integer)
+* Dan (integer)
+* Število rojenih (integer)
+
+
+
+2.tabela: živorojeni po starosti in izobrazbi matere 
+viri: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px (CSV)
+
+* Leto (integer)
+* Starost matere (integer)
+* Izobrazba matere (character)
+* Vrstni red rojstva (integer)
+* Število živorojenih (integer)
+
+
+3.tabela: rojsta po spolu in statističnih regijah 
+viri: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal__1%20Zdravstveno%20stanje%20prebivalstva__03%20Porodi%20in%20rojstva&px_tableid=PIS_TB_6.px&px_language=sl&px_db=NIJZ%20podatkovni%20portal&rxid=e282d9e8-19d0-451f-a4de-e7d2147cc4b1 (HTML)
+
+* Leto (integer)
+* Živorojeni (integer)
+* Mrtvorojeni (integer)
+* Spol (character)
+* Regija (character)
+
+
+4.tabela: rodnost
+* Leto (integer)
+* Država (character)
+* Rodnost (število otrok, ki se rodi v letu na 1000 prebivalcev) (double)
+ 
+5.tabela: število prebivalcev
+* Leto (integer)
+* Država (character)
+* Število prebivalcev (integer)
+
+6.tabela: BDP držav
+* Leto (integer)
+* Država (character)
+* BDP (double)
+
+7.tabela: število splavov
+* Leto (integer)
+* Država (character)
+* Število splavov (integer)
+
+
+viri: (CSV)
+- https://data.oecd.org/pop/population.htm
+- https://gateway.euro.who.int/en/indicators/hfa_587-7011-number-of-abortions-all-ages/
+- https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?end=2019&start=2019&view=map
+
+
+
 
 ## Program
 

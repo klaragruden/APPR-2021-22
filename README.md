@@ -30,6 +30,7 @@ viri: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px (CSV)
 * Število živorojenih (integer)
 
 
+
 3.tabela: rojsta po spolu in statističnih regijah 
 viri: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal__1%20Zdravstveno%20stanje%20prebivalstva__03%20Porodi%20in%20rojstva&px_tableid=PIS_TB_6.px&px_language=sl&px_db=NIJZ%20podatkovni%20portal&rxid=e282d9e8-19d0-451f-a4de-e7d2147cc4b1 (HTML)
 
@@ -38,6 +39,7 @@ viri: https://podatki.nijz.si/Selection.aspx?px_path=NIJZ%20podatkovni%20portal_
 * Mrtvorojeni (integer)
 * Spol (character)
 * Regija (character)
+
 
 
 4.tabela: rodnost

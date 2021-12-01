@@ -15,7 +15,7 @@ V drugem delu pa bom po svetu opazovala povezavo med robnostjo in številom spla
 * Leto (integer)
 * Mesec (integer)
 * Dan (integer)
-* Število rojenih (integer)
+* Število rojenih (integer) <br />
 vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1031S.px/ (CSV)
 
 
@@ -27,7 +27,7 @@ vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1031S.px/ (CSV)
 * Starost matere (integer)
 * Izobrazba matere (character)
 * Vrstni red rojstva (integer)
-* Število živorojenih (integer)
+* Število živorojenih (integer) <br />
 vir: https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J1027S.px (CSV)
 
 
